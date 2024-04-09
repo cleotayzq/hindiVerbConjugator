@@ -1,0 +1,68 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+head {
+  text-align: center;
+}
+
+body {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+h4, h5 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.keyboard-row div {
+  margin: 2px 0.5px;
+  display: inline-block;
+}
+
+.keyboard-row button {
+  font-size: 14pt;
+}
+
+.keyboard-row button:hover {
+  background-color: orange;
+  border-color: #ff851b;
+}
+
+.definition {
+  text-align: left;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 97%;
+  height: 30px;
+  text-align: right;
+  font-style: italic;
+  padding-top: 5px;
+}
+
+.ctrl-panel-bttn {
+  padding: 0vw 1vw 0vw 1vw;
+}
+
+.plot-well {
+  background-color: #ffffff;
+  padding: .5em;
+}
+
+.plot-legend {
+  padding: .5em;
+}
+
+.plot-letter {
+  border: 1px solid;
+  border-radius: 4px;
+  line-height: 2pt;
+  padding: 0 4px 0 4px;
+  margin-left: 0.5vw;
+  margin-right: 0.1vw;
+}
